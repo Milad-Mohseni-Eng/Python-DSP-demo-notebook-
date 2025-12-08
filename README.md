@@ -22,6 +22,13 @@ pip install -r requirements.txt
 jupyter lab
 # open notebooks/basic_dsp.ipynb
 
+git init
+git add .
+git commit -m "Add basic DSP notebook, sample data & initial figures"
+git branch -M main
+git remote add origin https://github.com/YourUser/YourRepo.git
+git push -u origin main
+
 
 numpy>=1.24
 scipy>=1.10
