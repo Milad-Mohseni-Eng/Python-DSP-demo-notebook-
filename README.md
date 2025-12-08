@@ -21,3 +21,12 @@ venv\Scripts\activate    # Windows
 pip install -r requirements.txt
 jupyter lab
 # open notebooks/basic_dsp.ipynb
+
+
+
+	method	MSE	SNR_dB
+0	noisy	0.324211	1.134213
+1	moving_avg	0.146614	4.580737
+2	FIR	0.776078	-2.656558
+3	IIR	0.131809	5.043042
+
