@@ -23,6 +23,14 @@ jupyter lab
 # open notebooks/basic_dsp.ipynb
 
 
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.5
+pandas>=2.0
+seaborn
+librosa
+jupyterlab
+
 
 	method	MSE	SNR_dB
 0	noisy	0.324211	1.134213
